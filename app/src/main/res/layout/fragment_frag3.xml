@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/fragment3"
+    android:background="#69F0AE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frag3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minus Fragment"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/frag3n1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="First Number :"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:id="@+id/frag3n2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Second Number :"
+            android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/frag3n3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result :"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

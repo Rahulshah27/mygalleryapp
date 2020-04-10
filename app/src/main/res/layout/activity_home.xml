@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task 1  (Program 1)"
+        android:textSize="20dp"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compalsury task 1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compalsury task 2"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>
